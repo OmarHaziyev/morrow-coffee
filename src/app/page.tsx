@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-8 py-6">
+    <nav className="sticky top-0 z-50 flex items-center justify-between bg-[#F5F0E8] px-8 py-6">
       <a href="#" className="font-serif text-2xl font-bold tracking-tight">
         morrow<span className="text-[#A47B55]">.</span>
       </a>
